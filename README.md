@@ -1,7 +1,7 @@
-# customer-challenge-ui
+# CustomerioChallenge Web API
 
 This README outlines the details of collaborating on this ASP.NET Core Web API application.
-This app fetches the customer data from the server and allows the user to view and edit the customer record through REST api. You can add or remove the customer properties.
+This app loads and summarizes activity data of customers, which is stored in a data file. It creates an in-memory store for customers at startup. The customer data is exposed via a RESTful API to view and update customer data.
 
 ## Prerequisites
 
@@ -38,6 +38,11 @@ You will need the following things properly installed on your computer.
 
 * Better testing (probably remove static classes)
 * Error handling and logging
+
+## Assumptions
+* Activities in data file might not be sorted by time
+* Duplicate records might be present in data file
+* Timestamp is epoch time
 
 ## Class diagram
 
