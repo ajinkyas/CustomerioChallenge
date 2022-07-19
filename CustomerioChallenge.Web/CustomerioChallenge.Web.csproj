@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>CustomerioChallenge.Web</AssemblyName>
+    <RootNamespace>CustomerioChallenge.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="X.PagedList" Version="8.4.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JsonData\" />
+  </ItemGroup>
+
+</Project>

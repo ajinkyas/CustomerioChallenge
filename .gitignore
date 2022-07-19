@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CustomerioChallenge.UnitTests/obj
+/CustomerioChallenge.UnitTests/bin
+/CustomerioChallenge.Web/obj
+/CustomerioChallenge.Web/bin
+*.user
+.vs
