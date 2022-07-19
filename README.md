@@ -20,14 +20,14 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `cd CustomerioChallenge.Web`
+* Go to file `\CustomerioChallenge\CustomerioChallenge.Web\Startup.cs` and change the path of `messages.1.data` file if needed. You can put absolute path if relative path do not work.
 * `dotnet run`
 * Visit Swagger UI at [http://localhost:5000/swagger/index.html](http://localhost:5000/swagger/index.html).
-* Go to file `\CustomerioChallenge\CustomerioChallenge.Web\Startup.cs` and change the path of `messages.1.data` file if needed. You can put absolute path if relative path do not work.
 * try `dotnet help` for more details
 
 ### Running Tests
 
-* Go back to parent folder 'CustomerioChallenge' [ `cd ..` ]
+* Go back to root folder 'CustomerioChallenge' [ `cd ..` ]
 * `dotnet test`
 
 ## Known issues
